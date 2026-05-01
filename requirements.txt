@@ -1,0 +1,20 @@
+# AI Performance Assessment System
+
+## 项目简介
+智能绩效评估AI系统,自动分析GitHub代码贡献,评估任务完成度和代码质量。
+
+## 功能特性
+- 代码贡献自动抓取
+- AI智能任务评估
+- 多维度绩效评分
+- 可视化报表展示
+
+## 安装依赖
+```bash
+pip install -r requirements.txt
+```
+
+## 运行服务
+```bash
+uvicorn app.main:app --reload
+```
